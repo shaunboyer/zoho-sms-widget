@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+#messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#messages-table th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+}
+
+#messages-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+#messages-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+#loading, #no-messages {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://live.zwidgets.com/js-sdk/1.2/ZohoEmbededAppSDK.min.js"></script>
+</head>
+<body>
+    <div id="loading">Loading SMS Messages...</div>
+    <div id="messages-container" style="display:none;">
+        <table id="messages-table">
+            <thead>
+                <tr>
+                    <th>Date/Time</th>
+                    <th>Message</th>
+                    <th>Status</th>
+                    <th>Direction</th>
+                </tr>
+            </thead>
+            <tbody id="messages-body">
+            </tbody>
+        </table>
+        <div id="no-messages" style="display:none;">No SMS messages found for this contact.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
